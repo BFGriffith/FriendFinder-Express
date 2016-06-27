@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/BFGriffith/FriendFinder-Express/issues"
   },
-  "homepage": "https://github.com/BFGriffith/FriendFinder-Express#readme"
+  "homepage": "https://github.com/BFGriffith/FriendFinder-Express#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
