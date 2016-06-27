@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder-express",
+  "version": "0.0.0",
+  "description": "Express framework compatibility-based “Friend Finder” application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFGriffith/FriendFinder-Express.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "BFGriffith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BFGriffith/FriendFinder-Express/issues"
+  },
+  "homepage": "https://github.com/BFGriffith/FriendFinder-Express#readme"
+}
