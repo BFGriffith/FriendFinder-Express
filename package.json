@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/BFGriffith/FriendFinder-Express/issues"
   },
-  "homepage": "https://github.com/BFGriffith/FriendFinder-Express#readme"
+  "homepage": "https://github.com/BFGriffith/FriendFinder-Express#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
 }
