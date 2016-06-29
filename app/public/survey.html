@@ -1,24 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FriendFinder_survey</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<!-- Font Awesome Glyphicons -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <title>FriendFinder_questionnaire</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
+
 <body>
 
-	<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <h2>Friendship/compatibility Questionnaire</h2>
+        <hr>
+      </div>
+    </div>
 
-    <h2>Survey Questions</h2>
-		<hr>
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
 
+        <p>Enter your NAME:</p><br>
+        <input id="name" type="text" name="name"><br><br>
 
+        <p>Copy and paste a link to a “selfie” or portrait photo.</p><br>
+        <input id="picture" type="text" name="picture"><br><br><br>
+
+      <p>1. On a scale of 1-5, with 1 being least important and 5 being most important, how important is a person’s basic knowledge of J.R.R. Tolkien’s “Middle Earth” legendarium?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio1" class="question1" id="optionRadio1-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio1" class="question1" id="optionRadio1-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio1" class="question1" id="optionRadio1-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio1" class="question1" id="optionRadio1-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio1" class="question1" id="optionRadio1-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>2. On a scale of 1-5, with 1 being least important and 5 being most important, how important is how important is a person’s level of book knowledge regarding George R.R. Martin’s “A Song of Ice and Fire” series (beyond merely watching HBO’s “Game of Thrones”)?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio2" class="question2" id="optionRadio2-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio2" class="question2" id="optionRadio2-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio2" class="question2" id="optionRadio2-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio2" class="question2" id="optionRadio2-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio2" class="question2" id="optionRadio2-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>3. On a scale of 1-5, with 1 being least important and 5 being most important, how important is a person’s knowledge of basic comic book lore?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio3" class="question3" id="optionRadio3-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio3" class="question3" id="optionRadio3-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio3" class="question3" id="optionRadio3-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio3" class="question3" id="optionRadio3-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio3" class="question3" id="optionRadio3-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>4. On a scale of 1-5, with 1 being least important and 5 being most important, how important are lightsaber combat skills for a Jedi Apprentice?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio4" class="question4" id="optionRadio4-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio4" class="question4" id="optionRadio4-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio4" class="question4" id="optionRadio4-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio4" class="question4" id="optionRadio4-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio4" class="question4" id="optionRadio4-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>5. On a scale of 1-5, with 1 being least important and 5 being most important, how important are dogfighting skills when selecting a reliable wingman you can count on?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio5" class="question5" id="optionRadio5-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio5" class="question5" id="optionRadio5-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio5" class="question5" id="optionRadio5-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio5" class="question5" id="optionRadio5-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio5" class="question5" id="optionRadio5-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>6. On a scale of 1-5, with 1 being least important and 5 being most important, how important is being able to eat 50 eggs on a dare or to win a bit?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio6" class="question6" id="optionRadio6-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio6" class="question6" id="optionRadio6-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio6" class="question6" id="optionRadio6-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio6" class="question6" id="optionRadio6-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio6" class="question6" id="optionRadio6-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>7. On a scale of 1-5, with 1 being least important and 5 being most important, how important is it to be quick on the draw as a gunslinger?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio7" class="question7" id="optionRadio7-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio7" class="question7" id="optionRadio7-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio7" class="question7" id="optionRadio7-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio7" class="question7" id="optionRadio7-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio7" class="question7" id="optionRadio7-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>8. On a scale of 1-5, with 1 being least important and 5 being most important, how important is it to master the art of ninjutsu and instantly vanish using preternatural agility and deception?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio8" class="question8" id="optionRadio8-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio8" class="question8" id="optionRadio8-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio8" class="question8" id="optionRadio8-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio8" class="question8" id="optionRadio8-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio8" class="question8" id="optionRadio8-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>9. On a scale of 1-5, with 1 being least important and 5 being most important, how important is it to always obey the Prime Directive?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio9" class="question9" id="optionRadio9-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio9" class="question9" id="optionRadio9-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio9" class="question9" id="optionRadio9-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio9" class="question9" id="optionRadio9-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio9" class="question9" id="optionRadio9-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+      <p>10. On a scale of 1-5, with 1 being least important and 5 being most important, how important is it to remember to “Get To The Choppa!” when things go South in a hurry?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio10" class="question10" id="optionRadio10-1" value="1"> 1
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio10" class="question10" id="optionRadio10-2" value="2"> 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio10" class="question10" id="optionRadio10-3" value="3"> 3
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio10" class="question10" id="optionRadio10-4" value="4"> 4
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionRadio10" class="question10" id="optionRadio10-5" value="5"> 5
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-2">
+        <button type="button" class="btn btn-danger" id="submit">SUBMIT</button>
+      </div>
+    </div>
 
   </div>
 
+  <script src="/../scripts/questionnaire.js"></script>
 </body>
+
 </html>
